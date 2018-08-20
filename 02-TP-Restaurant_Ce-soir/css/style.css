@@ -1,5 +1,6 @@
 body{
     background: rgb(175, 248, 224);
+    font-family: 'Caveat Brush', cursive;
 }
 
 /* start of nav section */
@@ -51,14 +52,18 @@ li{
     text-decoration-line: none;
 }
 .pink{
-    height: 100px;
-    width: 100px;
     position: absolute;
     z-index: 2;
-    background: pink;
     opacity: 0.5;
-    margin-left: 52%;
-    margin-top: 13%;
+    margin-left: 50%;
+    margin-top: 14%;
+    width: 0;
+    height: 0;
+    border-top: 130px solid rgb(248, 91, 91);
+    border-left: 130px solid transparent;
+    /* height: 100px;
+    width: 100px; */
+    /* background: pink; */
 }
 
 .pink2{
@@ -73,7 +78,7 @@ li{
     border-bottom: 5px solid rgb(248, 55, 55);
     border-right: 5px solid rgb(248, 55, 55);
     transform: rotate(45deg);
-    margin-left: 54%;
+    margin-left: 51%;
     margin-top: 32%;
 }
 

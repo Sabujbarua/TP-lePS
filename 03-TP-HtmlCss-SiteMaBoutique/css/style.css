@@ -1,0 +1,288 @@
+body{
+    background: rgb(245, 244, 244);
+}
+
+#container{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+
+/* start of section 1 */
+.section1_div1{
+    float: left;
+    height: 100px;
+    width: 35%;
+}
+
+.logo{
+    float: left;
+}
+
+h1{
+  margin-left: 2vw;
+  margin-bottom: 5px;
+  font-size: 2em;
+  margin-top: 0px;
+}
+
+.section1_div1_p{
+    margin-left: 3vw;
+    margin-top: 0px;
+    color: rgb(248, 74, 196)
+}
+
+.section1_div2{
+    float: left;
+    height: 100px;
+    width: 35%;
+    color: rgb(34, 184, 243);
+}
+
+.section1_div2_h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+
+}
+
+.img_aide{
+    position: absolute;
+    z-index: -1;
+    margin-top: 2px;
+}
+
+.section1_div2_p{
+    padding-left: 59px;
+}
+.section1_div2_p2{
+    color: rgb(116, 112, 112);
+}
+
+
+
+
+.section1_div3{
+    height: 100px;
+    width: 29.6%;
+    float: left;
+}
+h4{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background: rgb(34, 184, 243);
+    height: 30px;
+    padding-top: 10px;
+}
+
+.section1_div3_div {
+    height: 59px;
+    background: rgb(34, 184, 243);
+    border-top: 1px solid aliceblue;
+}
+
+.section1_div3_p{
+     float: left;
+     position: absolute;
+     margin-left: 8vw;
+}
+
+.img_article{
+   margin-left: 5vw;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/* nav */
+nav{
+    height: 50px;
+    background: rgb(34, 184, 243);
+}
+li{
+    list-style: none;
+    float: left;
+    margin: 0vw 4.5vw;
+    line-height: 50px;
+}
+.li{
+    background: rgb(245, 21, 170);
+    height: 50px;
+    width: 12.4vw;
+    text-align: center;
+    margin-left: -40px;
+    margin-right: 2vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* end of section 1 */
+
+
+/* start of section 2 */
+
+.img_bandeau{
+    height: auto;
+    width: 100%;
+}
+/* end of section 2 */
+
+/* start of section 3 */
+
+#section3{
+    margin-top: 15px;
+}
+.section3_h2{
+    margin-top: 0;
+    color: rgb(34, 184, 243);
+}
+
+.section3_div1{
+    float: left;
+    height: 170px;
+    width: 25%;
+    border-right: 2px solid rgb(196, 196, 196);
+    /* margin-top: 15px; */
+}
+
+.section3_div2{
+    float: left;
+    height: 170px;
+    width: 56%;
+    padding-left: 20px;
+    border-right: 2px solid rgb(196, 196, 196);
+    /* margin-top: 15px; */
+}
+
+.img_paiement{
+    float: left;
+}
+
+.fond_img{
+    height: 248px;
+    width: 2px;
+    margin-top: -100px;
+    margin-left: 53%;
+}
+.fond_img2{
+    height: 248px;
+    width: 2px;
+    margin-top: -136px;
+    margin-left: 99%;
+}
+
+.section3_div3{
+    float: left;
+    height: 196px;
+    width: 15%;
+    padding-left: 20px;
+    /* margin-top: 15px; */
+}
+
+.section3_div3_p {
+    margin-left: 62px;
+}
+
+.img_camion{
+    float: left;
+}
+
+.img_echange{
+    float: left;
+}
+
+/* end of section 3 */
+
+/* start of section 4 */
+
+.section4{
+    margin-bottom: 20px;
+}
+
+.section4_div1, .section4_div2, .section4_div3{
+    float: left;
+    border: 1px solid gray;
+    width: 30%;
+    margin-left: 31px;
+    margin-right: 10px;
+    margin-right: 10px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    box-shadow: -0.1em -0.1em 0.5em -0.1em gray;
+}
+
+.section4_h2{
+    text-align: center;
+    margin-top: 0px;
+    background: gray;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 4%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    height: 50px;
+    line-height: 50px;
+}
+
+span{
+    margin-left: 72%;
+    color: rgb(34, 184, 243);
+}
+
+
+
+
+/*.section4_div1{
+    margin-right: 10px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+
+ .section4_div2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section4_div3{
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+.img_section4{
+    float: left;
+}
+
+.section4_p{
+    height: auto;
+    margin-left: 100px;
+}
+
+/* ending of section 4 */
+
+
+/* start of section 5 */
+
+.section5_div1{
+    background: rgb(34, 184, 243);
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+
+/* ending of section 5 */
+
+/* 
+.bug{
+    border: 1px solid;
+} */
+
+/* box-shadow: -0.1em -0.1em 0.5em -0.1em gray;
+box-shadow: 0px 0px 2px 2px gray;
+ */

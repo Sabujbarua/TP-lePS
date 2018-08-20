@@ -1,0 +1,176 @@
+body{
+
+}
+#my_container{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+section{
+    margin: 0;
+}
+
+/* section 1 */
+
+.row{
+    margin-top: 10px;
+
+}
+
+.div_row{
+    height: 200px;
+}
+
+.p_position {
+    position: absolute;
+    z-index: 2;
+    margin-left: 3em;
+}
+
+.div_article {
+    height: 50px;
+    line-height: 35px;
+    background: rgb(45, 209, 250);
+    border-top: 1px solid #fff;
+}
+
+h4{
+    text-align: center;
+    background: rgb(45, 209, 250);
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 2px;
+}
+
+.img_article{
+    float: left;
+    margin-left: 10%;
+}
+
+.p_article{
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+.jumbotron{
+    padding: 15px;
+}
+.logo{
+    float: left;
+}
+.lead{
+    margin-left: 2.5em;
+}
+
+.nav_ul{
+    margin-left: -14.5px;
+    margin-right: 0px;
+    width: 102%;
+}
+
+.my_nav_bg{
+    background: rgb(45, 209, 250);
+}
+
+.first_li_bg{
+    background: rgb(250, 64, 194);
+}
+
+/* fin de section 1 */
+
+
+/* section 2 */
+
+.img_bandeau {
+    height: auto;
+    width: 102%;
+    margin-left: -13px;
+    margin-top: -24px;
+}
+/* fin de section 2 */
+
+
+/* section 3 */
+
+.img_paiement {
+    float: left;
+}
+
+.fond_img {
+    height: 248px;
+    width: 2px;
+    margin-top: -120px;
+    margin-left: 102%;
+}
+
+.fond_img2 {
+    height: 248px;
+    width: 2px;
+    margin-top: -173px;
+    margin-left: 101%;
+}
+
+.section3_div3_p {
+    margin-left: 100px;
+}
+
+.img_camion {
+    float: left;
+}
+
+.img_echange {
+    float: left;
+}
+
+/* fin de section 3 */
+
+/* section 4 */
+
+.section4_p {
+    height: auto;
+    margin-left: 100px;
+}
+
+
+span {
+    margin-left: 72%;
+    color: rgb(34, 184, 243);
+}
+.my_card{
+    width: 30rem;
+}
+
+/* fin de section 4 */
+
+#section5{
+    margin-top: 3%;
+}
+
+.my_nav{
+    height: 70px;
+    line-height: 70px;
+    width: 102%;
+    margin-left: -13px;
+}
+.my_footer1{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bug{
+    border: 1px solid red;
+} */

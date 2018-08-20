@@ -1,0 +1,608 @@
+/* * {
+    box-sizing: border-box;
+} */
+body{
+    background: rgb(203, 237, 250);
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#my_container{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*....................... Page header .......................*/
+.test{
+    height: 40px;
+    width: 125%;
+    background: rgb(201, 201, 201);
+    margin-left: -12.5%;
+    line-height: 40px;
+}
+
+.test1{
+    display: inline;
+    margin-left: 18%;
+}
+/* header{
+    background: rgb(201, 201, 201);
+}
+
+.table{
+    text-align: center;
+}
+
+th{
+    width: 1%;
+} */
+
+/* .header_div{
+    height: 200px;
+    width: 80%;
+} */
+
+.header_div1{
+    float: left;
+    height: 105px;
+    width: 40vw;
+    padding: 2% 10%;
+}
+
+.header_div2{
+    float: left;
+}
+
+.header_div2_margin{
+    border-bottom: 1px solid white;
+    height: 80px;
+}
+
+.devis{
+    float: left;
+    width: 200px;
+    margin-top: 30px;
+}
+.devis_div{
+    margin-left: 70px;
+}
+.devis_div h4{
+    margin: 0;
+}
+.devis_div p{
+    margin: 0;
+}
+
+
+.compte1{
+    float: left;
+    width: 200px;
+    margin-top: 30px;
+}
+.compte1_div{
+    float: left;
+    padding: 0px 5px;
+}
+.compte1_div h4 {
+    margin: 0;
+}
+
+.compte1_div p {
+    margin: 0;
+}
+
+.conseils{
+    float: left;
+    margin-top: 20px;
+}
+
+.panier{
+    float: left;
+    margin-top: 20px;
+}
+
+.img_header{
+    float: left;
+}
+
+.img_panier{
+    height: 59px;
+    width: 40px;
+    transform: rotate(90deg);
+    padding: 0 13px;
+}
+/*....................... Fin Page header .......................*/
+
+
+
+/*....................... Fin Page Nav .......................*/
+
+nav{
+    background: rgb(231, 231, 231);
+    height: 60px;
+    width: 125%;
+    margin-left: -12.5%;
+    text-align: center;
+    line-height: 60px;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+nav a{
+    text-decoration: none;
+    float: left;
+    padding: 10px 43px;
+    font-size: 30px;
+    color: black;
+    border-left: 1px solid whitesmoke;
+    height: 40px;
+}
+
+form{
+    display: inline;
+}
+/*....................... Fin Page Nav .......................*/
+
+
+
+/*....................... Fin Page Slider .......................*/
+
+.f_slider {
+    margin: 30px 50px;
+    height: auto;
+    width: auto;
+}
+.slider{
+    float: left;
+}
+
+.img_slider{
+    height: 448px;
+    width: 900px;
+}
+
+.beside_slider{
+    margin-left: 67%;
+}
+.beside_slider1 p{
+    background: red;
+    display: inline;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 192px;
+    width: 380px;
+    text-align: center;
+}
+.beside_slider2 p{
+    background: red;
+    display: inline;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 192px;
+    width: 380px;
+    text-align: center;
+}
+
+.carrelage1{
+    height: 200px;
+    width: 380px;
+    padding: 10px 20px;
+}
+
+/* .btn_i {
+    position: absolute;
+    z-index: 2;
+    background:red;
+} */
+/*....................... Fin Page Slider .......................*/
+
+
+/*....................... Page icon .......................*/
+
+.div_i{
+    /* float: left; */
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.my_i{
+    display: inline;
+    /* padding-top: 50px; */
+}
+.my_i2{
+    margin-left: 14%;
+}
+.padding1{
+    padding-left: 7px;
+}
+.i{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+/*....................... Fin Page icon .......................*/
+
+
+
+/*....................... Page Nous Produits .......................*/
+.produit{
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.bisideh2 p{
+    background: rgb(253, 40, 129);
+    display: inline;
+    float: left;
+    padding: 5px 10px;
+    margin-top: 1px;
+    margin-left: 48px;
+}
+.bisideh22{
+    height: 0;
+    width: 0;
+    margin-left: 159px;
+    border-bottom: 41px solid rgb(253, 40, 129);
+    border-right: 20px solid transparent;
+}
+
+.bisideh221{
+    height: 10px;
+    width: 67.5%;
+    margin-left: 9%;
+    border-bottom: 1px solid gray;
+    position: absolute;
+    margin-top: 23px;
+    z-index: -1;
+}
+/* ............produit2............*/
+.produit2{
+    margin-top: 10px;
+    margin-left: 3.2%;
+}
+
+.carrelage2{
+    height: 300px;
+    width: 302px;
+    float: left;
+}
+
+.carrelage2_padding{
+    padding-left: 17%;
+}
+
+.img_carrelage2{
+    height: 250px;
+    width: 301px;
+    /* margin-top: -10px; */
+}
+.p1_carrelage2{
+    margin-top: -3px;
+    height: 70px;
+    width: 299px;
+    text-align: center;
+    border-left: 1px solid rgb(119, 119, 119);
+    border-right: 1px solid rgb(119, 119, 119);
+    margin-bottom: 0;
+}
+p span{
+    color: red;
+    line-height: 30px;
+}
+.p2_carrelage2, .p3_carrelage2{
+    float: left;
+}
+.p2_carrelage2{
+    background: #232323;
+    padding: 3px;
+    margin: 0;
+}
+.p3_carrelage2 {
+    background: rgb(253, 40, 129);
+    padding: 3px;
+    margin: 0;
+}
+.p4_carrelage2{
+    background: gray;
+    padding: 3px;
+    margin-top: 0;
+    width: 295px;
+}
+
+.promo {
+    overflow: hidden;
+}
+
+.promo div{
+    height: 30px;
+    width: 200px;
+    background: rgb(253, 40, 129);
+    transform: rotate(-37deg);
+    text-align: center;
+    line-height: 30px;
+    margin-top: 34px;
+    margin-left: -54px;
+    color: aliceblue;
+}
+
+.overflow{
+    margin-top: -64px;
+}
+
+.produit22{
+    margin-top: 90px;
+}
+
+.fa-search{
+    color: rgb(172, 27, 87);
+}
+
+/* ............produit2............*/
+
+/*....................... Fin Page Nous Produits .......................*/
+
+
+
+/*....................... Page Eshop .......................*/
+
+.eshop {
+    height: 40vh;
+    width: 73vw;
+    background: gray;
+    border: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 6.5%;
+    box-sizing: border-box;
+    /* margin-top: 30%; */
+}
+
+.eshop1{
+    height: 30px;
+    width: 200px;
+    background: rgb(253, 40, 129);
+    margin-top: -15px;
+    text-align: center;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+.eshop1 div{
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 30px solid green;
+    margin-top: -30px;
+    margin-left: 100%;
+}
+
+.eshop2{
+    height: 29vh;
+    width: 70vw;
+    /* border: 1px solid white; */
+    padding: 1%;
+    margin: 0 auto;
+}
+
+.echop_div1{
+    height: auto;
+    width: 20vw;
+    border-right: 1px solid wheat;
+    float: left;
+}
+
+.img_map{
+    float: left;
+}
+h4{
+    margin-left: 25%;
+}
+.img_map_p{
+    margin-left: 25%;
+}
+
+.echop_div2{
+    float: left;
+    height: 29vh;
+    width: 20vw;
+    border-right: 1px solid wheat;
+    float: left;
+}
+
+.img_alerm {
+    padding-left: 30px;
+    margin-top: 21px;
+}
+
+.alerm {
+    margin-left: 29%;
+}
+
+.img_person{
+    padding-left: 30px;
+}
+
+.person_p{
+    margin-left: 65%;
+}
+
+.eshop_text{
+    text-align: center;
+    color: rgb(253, 40, 129);
+    font-size: 20px;
+}
+/*....................... fin Page Eshop .......................*/
+
+
+/*....................... Page footer .......................*/
+
+.footer{
+    background: #f5f5f5;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    height: 120vh;
+    width: 100vw;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.footer1, .footer2, .footer3, .footer4{
+    height: 45vh;
+    width: 16.5vw;
+    /* border: 1px solid; */
+    float: left;
+    /* margin-left: 10%; */
+    padding-left: 20px;
+}
+
+
+.footer2, .footer3, .footer4{
+    margin-left: 1%;
+}
+
+.footer1{
+    margin-left: 12.7%;
+    /* text-align: center; */
+}
+
+.iframe_h4{
+    text-align: center;
+    height: 34px;
+    width: 15vw;
+    margin: 0px auto;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+
+iframe{
+    margin-left: 0;
+    margin-top: 22px;
+
+}
+.iframe_p{
+    margin-left: 67%;
+}
+
+a{
+    display: block;
+    padding-top: 10px;
+}
+
+.img_qualite{
+    margin-left: 9%;
+    margin-top: 25px;
+    height: 307px;
+    width: 250px;
+}
+
+.img_share{
+    margin-top: 25px;
+    height: 307px;
+    width: 313px;
+}
+
+.inscription{
+    height: 10vh;
+    width: 16.5vw;
+    background:gray;
+    /* margin: 0 auto; */
+}
+
+.inscription2{
+    text-align: center;
+}
+
+.inscription3 {
+    margin-left: 52px;
+    margin-right: -6px;
+}
+
+.propose{
+    width: 54vw;
+    margin-left: 13%;
+    float: left;
+}
+
+.form{
+    margin-top: 5%;
+    float: left;
+    height: 20vh;
+    width: 20vw;
+    background:gray;
+    display: block;
+}
+
+
+.block{
+    display: block;
+    margin-left: 46px;
+}
+
+.input{
+    width: 290px
+}
+.buttom1{
+    margin: 0 auto;
+}
+.b_arrow {
+ height: 10px;
+ width: 90%;
+ margin: -14px auto;
+ border-top: 1px solid;
+}
+
+.img_ancre{
+    margin-left: 50%;
+    margin-top: 0;
+}
+
+.footer_loge{
+    height: 100px;
+    width: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+
+
+}
+
+/* .nav_logo{
+
+    float: left;
+} */
+/*....................... fin Page footer .......................*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bug{
+    border: 1px solid;
+} */
+
+.clear{
+    clear: both;
+}

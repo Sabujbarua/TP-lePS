@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/background.png);
+    font-family: Arial,
+    sans-serif;
+}
+
+/* ........section header........ */
+/* #header{
+    margin-top: 0;
+} */
+#header p{
+    float: left;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+    margin: 17px 40px;
+    color: #FFF;
+    font-size: 25px;
+}
+
+li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    height: 70px;
+}
+li:hover{
+    background: #eb43a3;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+    line-height: 50px;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    background: #c55394;
+    margin-top: 0;
+}
+
+ul{
+    margin-left: 80%;    
+}
+/* ........fin de section header........ */
+
+
+/* ........section main........ */
+#main{
+    height: auto;
+    width: 70%;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.rainbow{
+    text-align: center;
+    /* border: 1px solid; */
+    height: 21vh;
+    width: 100%;
+}
+
+h1{
+    color: #C55394;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 31%;
+
+}
+
+/* ***main-div*** */
+#main-div{
+    height: 125vh;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 0px black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2{
+    font-family: 'Courgette',
+    cursive;
+    color: #eb43a3;
+    margin-top: 50px; 
+    margin-bottom: 10px;   
+}
+
+#image figure{
+    float: left;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 0.7vw;
+    transform: scale(1);
+    transition: 1s;
+}
+figure:hover {
+    display: flex;
+    flex-flow: column;
+    padding: 0.7vw;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+figcaption {
+    background-color: black;
+    opacity: 0.5;
+    color: #FFF;
+    padding: 3px;
+    text-align: center;
+    margin-top: -24px;
+}
+
+iframe{
+    float: left;
+    padding-left: 10px;
+}
+
+.contact{
+    float: left;
+}
+
+span{
+    color: #eb43a3;
+}
+button{
+    height: 30px;
+    width: 60px;
+    background: #eb43a3;
+    color: #FFF;
+}
+
+.contact p{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+address{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+input, button{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* ........fin de section main........ */
+
+
+/* ........section footer........ */
+/* #footer{
+    margin-top: 70px;
+} */
+
+footer{
+    margin-top: 70px;
+    height: 70px;
+    width: 100%;
+    background: #E577B5;
+    line-height: 70px;
+}
+
+footer p{
+    margin-left: 90%;
+    color: #FFF;
+}
+
+/* ........fin de section footer........ */
+
+.clear{
+    clear: both;
+}

@@ -1,0 +1,243 @@
+body{
+    background: rgb(232, 255, 255);
+}
+
+tr{
+    background: rgb(231, 231, 231);
+}
+
+
+
+/*................. part eshop logo .................*/
+
+#logo3{
+    padding-left: 12%;
+    padding-top: 33px;
+}
+
+.header_div2_margin{
+    border-bottom: 1px solid rgb(180, 179, 179);
+    height: 88px;
+    width: 24vw;
+}
+
+.devis{
+    float: left;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.devis_div{
+    margin-left: 70px;
+}
+
+.devis_div h4{
+    margin: 0;
+    width: 150px;
+}
+
+.devis_div p{
+    margin: 0;
+    width: 150px;
+}
+
+
+.compte1{
+    float: left;
+    width: 250px;
+    margin-top: 30px;
+    padding-left: 16px;
+}
+
+.compte1_div{
+    float: left;
+    padding: 0px 5px;
+}
+
+.compte1_div h4 {
+    margin: 0;
+}
+
+.compte1_div p {
+    margin: 0;
+}
+
+.conseils{
+    float: left;
+    margin-top: 20px;
+}
+
+.panier{
+    float: left;
+    margin-top: 20px;
+}
+
+.img_header{
+    float: left;
+}
+
+.img_panier{
+    height: 59px;
+    width: 40px;
+    transform: rotate(90deg);
+    padding: 10px 6px;
+}
+
+/*................. end part eshop logo .................*/
+
+
+ /* ...............start of Nav bar............... */
+nav a {
+    width: 170px;
+    text-align: center;
+}
+
+li {
+    width: 170px;
+    border-left: 1px solid rgb(212, 212, 212);
+    text-align: center;
+    font-size: 20px;
+}
+
+ /* ...............end of Nav bar............... */
+
+ /* ..................start slide bar.................. */
+
+ .container-fluid {
+     margin-top: 20px;
+ }
+.carousel-indicators li {
+    height: 20px;
+    width: 20px;
+    left: 42%;
+}
+
+.carousel-indicators p {
+    margin-left: -45%;
+    color: whitesmoke;
+}
+
+ .card-body2 {
+     padding-top: 0;
+     padding-bottom: 0;
+     background: #f62775;
+     text-align: center;
+ }
+
+ .img_carrelage1 {
+     height: 200px;
+ }
+
+ .img_carrelage2 {
+     margin-top: 79px;
+ }
+ /* ..................endslide bar.................. */
+
+/* ................start of logo_after_slider................ */
+
+.logo_after_slider{
+    margin-top: 30px;
+}
+
+/* ................end of logo_after_slider................ */
+
+
+/* ..............start of produit.............. */
+
+.produit {
+    margin-top: 30px;
+}
+
+.bisideh2 p {
+    background: rgb(253, 40, 129);
+    display: inline;
+    float: left;
+    padding: 5px 10px;
+    margin-top: 1px;
+    color: aliceblue;
+    font-weight: bold;
+    /* margin-left: 48px; */
+}
+
+.bisideh22 {
+    height: 0;
+    width: 0;
+    margin-left: 9.1%;
+    border-bottom: 41px solid rgb(253, 40, 129);
+    border-right: 20px solid transparent;
+}
+
+.bisideh221 {
+    height: 10px;
+    width: 78%;
+    margin-left: 9%;
+    border-bottom: 1px solid gray;
+    position: absolute;
+    margin-top: 23px;
+    z-index: -1;
+}
+
+/* .........start of row produit2......... */
+.produit2{
+    margin-top: 20px;
+}
+span{ color: rgb(253, 40, 129);}
+
+.card-body3{ text-align: center;}
+
+.div_search, .div_shopping{ 
+    background: #232323;
+    color: aliceblue;
+    float: left;
+     /* padding-left: 0; */
+     width: 50%;
+     text-align: center;
+}
+
+.div_shopping {
+    background: #f62775;
+}
+
+.div_file {
+    background: gray;
+    color: aliceblue;
+    width: 285px;
+    text-align: center;
+}
+
+/* .........start of row produit2......... */
+
+.promo {
+    overflow: hidden;
+}
+
+.promo div {
+    height: 30px;
+    width: 200px;
+    background: rgb(253, 40, 129);
+    transform: rotate(-37deg);
+    text-align: center;
+    line-height: 30px;
+    margin-top: 34px;
+    margin-left: -54px;
+    color: aliceblue;
+}
+
+/* ................end of produit................ */
+
+
+
+
+
+
+
+
+
+
+.clear{
+    clear: both;
+}
+
+.bug{
+    border: 1px solid;
+}
